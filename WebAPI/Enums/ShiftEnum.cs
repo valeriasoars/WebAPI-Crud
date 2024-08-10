@@ -6,8 +6,8 @@ namespace WebAPI.Enums
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum ShiftEnum
     {
-        Morning,
-        Afternoon,
-        Evening
+        Manha,
+        Tarde,
+        Noite
     }
 }

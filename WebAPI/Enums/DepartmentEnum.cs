@@ -5,9 +5,8 @@ namespace WebAPI.Enums
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum DepartmentEnum
     {
-        HR,
-        Finance,
-        CustomerService,
-        Jailbreaking
+        RH,
+        Finanças,
+        Atendimento
     }
 }
